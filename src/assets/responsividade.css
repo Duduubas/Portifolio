@@ -1,0 +1,98 @@
+
+
+/* RESPONSIVIDADE DA NAVBAR */
+
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .navbar__buttons-wrapper {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #000;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+        border-bottom: 2px solid #FFD700;
+        display: none;
+    }
+
+    .navbar__buttons-wrapper.active {
+        display: flex;
+    }
+
+    .navbar__content-buttons {
+        width: 100%;
+    }
+
+    .navbar__content-buttons button {
+        width: 100%;
+    }
+
+    .first-section__Content-texts h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* RESPONSIVIDADE DA SEÇÃO PROJETOS */
+@media (max-width: 768px) {
+    .projects-section {
+        padding: 3rem 1rem;
+    }
+
+    .projects-section__content-inicio h1 {
+        font-size: 2rem;
+    }
+
+    .projects-section__content-projetos {
+        padding: 1.5rem;
+    }
+
+    .project-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .projects-section__content-projetos h1 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-section__content-inicio h1 {
+        font-size: 1.75rem;
+    }
+
+    .project-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .projects-section__content-projetos h1 {
+        font-size: 1.5rem;
+    }
+}
+
+/* RESPONSIVIDADE DO FOOTER */
+
+@media (max-width: 480px) {
+    .footer__content {
+        padding: 0 1rem;
+    }
+    
+    .footer-options {
+        gap: 1rem;
+    }
+    
+    .footer-options img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .legal-text h3 {
+        font-size: 0.8rem;
+    }
+}

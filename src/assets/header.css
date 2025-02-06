@@ -1,0 +1,82 @@
+/* Reset e configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: "Kanit", sans-serif;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+
+/* Navbar Styles */
+.layout .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    border-bottom: 2px solid #FFD700;
+    z-index: 100;
+}
+
+.navbar__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.navbar__content-nome span {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #FFD700;
+}
+
+/* Botões da Navbar */
+.navbar__buttons-wrapper {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar__content-buttons button {
+    background-color: transparent;
+    border: 2px solid #FFD700;
+    color: #FFD700;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar__content-buttons button:hover {
+    background-color: #FFD700;
+    color: #000;
+}
+
+/* Menu Hamburguer */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid #FFD700;
+}
+
+.hamburger-menu span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #FFD700;
+    transition: all 0.3s ease;
+}
