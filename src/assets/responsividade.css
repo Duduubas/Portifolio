@@ -96,3 +96,34 @@
         font-size: 0.8rem;
     }
 }
+
+/* RESPONSIVIDADE DA PARTE DAS LINGUAGENS */
+/* Responsividade */
+@media (max-width: 768px) {
+    .skills-section {
+        padding: 3rem 1rem;
+    }
+
+    .skills-section__content-inicio h1 {
+        font-size: 2rem;
+    }
+
+    .skill-card {
+        padding: 1.5rem;
+    }
+
+    .skill-icon {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-section__content-inicio h1 {
+        font-size: 1.75rem;
+    }
+
+    .skills-section__content-grid {
+        grid-template-columns: 1fr;
+    }
+}
