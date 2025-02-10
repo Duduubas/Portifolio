@@ -76,6 +76,20 @@
     }
 }
 
+/* RESPONSIVIDADE DA SEÇÃO APRESENTAÇÃO */
+@media (max-width: 768px) {
+    .apresentacao-section__content-inicio {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .apresentacao-section__imagem {
+        width: 200px;
+        height: 200px;
+        order: -1;
+    }
+}
+
 /* RESPONSIVIDADE DO FOOTER */
 
 @media (max-width: 480px) {
