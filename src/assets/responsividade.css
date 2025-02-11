@@ -112,7 +112,6 @@
 }
 
 /* RESPONSIVIDADE DA PARTE DAS LINGUAGENS */
-/* Responsividade */
 @media (max-width: 768px) {
     .skills-section {
         padding: 3rem 1rem;
@@ -141,3 +140,4 @@
         grid-template-columns: 1fr;
     }
 }
+

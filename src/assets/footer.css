@@ -46,19 +46,3 @@ footer {
     color: rgba(255, 255, 255, 0.7);
     font-size: 0.9rem;
 }
-
-/* Responsividade */
-@media (max-width: 768px) {
-    footer {
-        padding: 1.5rem 0;
-    }
-    
-    .footer-options {
-        gap: 1.5rem;
-    }
-    
-    .footer-options img {
-        width: 28px;
-        height: 28px;
-    }
-}
