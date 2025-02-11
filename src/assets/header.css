@@ -56,7 +56,9 @@ body {
     font-weight: 500;
     transition: all 0.3s ease;
     cursor: pointer;
+    transition: transform 0.3s ease;
 }
+
 
 .navbar__content-buttons button:hover {
     background-color: #FFD700;

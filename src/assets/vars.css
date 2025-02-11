@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     /* FONT */
     --font-dm-sans: "DM Sans", sans-serif;
@@ -6,4 +8,5 @@
     /* COLORS */
     --bg-icon: #131313;
     --bg-arrow-color: #242424;
+    --font-padrao: "Share Tech Mono", serif;
 }
